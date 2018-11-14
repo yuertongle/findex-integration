@@ -1,0 +1,32 @@
+[
+  {"pairDisplayName":"ADD/EOS","pairID":1},
+  {"pairDisplayName":"ATD/EOS","pairID":2},
+  {"pairDisplayName":"BOID/EOS","pairID":3},
+  {"pairDisplayName":"EDNA/EOS","pairID":4},
+  {"pairDisplayName":"EOSDAC/EOS","pairID":5},
+  {"pairDisplayName":"EOX/EOS","pairID":6},
+  {"pairDisplayName":"ESB/EOS","pairID":7},
+  {"pairDisplayName":"KARMA/EOS","pairID":8},
+  {"pairDisplayName":"MEETONE/EOS","pairID":9},
+  {"pairDisplayName":"POOR/EOS","pairID":10},
+  {"pairDisplayName":"TPT/EOS","pairID":11},
+  {"pairDisplayName":"BLACK/EOS","pairID":12},
+  {"pairDisplayName":"WECASH/EOS","pairID":13},
+  {"pairDisplayName":"TEA/EOS","pairID":14},
+  {"pairDisplayName":"DICE/EOS","pairID":15},
+  {"pairDisplayName":"LUCK/EOS","pairID":16},
+  {"pairDisplayName":"ET/EOS","pairID":17},
+  {"pairDisplayName":"ROLL/EOS","pairID":18},
+  {"pairDisplayName":"LUCKY/EOS","pairID":19},
+  {"pairDisplayName":"BLACK/DICE","pairID":20},
+  {"pairDisplayName":"BT/DICE","pairID":21},
+  {"pairDisplayName":"MEETONE/DICE","pairID":22},
+  {"pairDisplayName":"TPT/DICE","pairID":23},
+  {"pairDisplayName":"EGT/DICE","pairID":24},
+  {"pairDisplayName":"EGT/EOS","pairID":25},
+  {"pairDisplayName":"BT/EOS","pairID":26},
+  {"pairDisplayName":"MEV/EOS","pairID":27}
+  {"pairDisplayName": "FOS/EOS", "pairID": 28}
+  {"pairDisplayName": "PTI/EOS", "pairID": 29}
+  {"pairDisplayName": "KARMA/DICE", "pairID": 30}
+]
