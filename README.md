@@ -160,4 +160,4 @@ switch (msgData.targetFunc) {
 ---
 
 ## Method 3: Develop your own Front-end and use findex JS API
-Use the api give in [findex-api.js](https://github.com/yuertongle/findex-integration/blob/master/for_DIY/findex_api.js) to request from Findex smart(Get orderbook, sell/buy/cancel orders), and develop your front end.
+Use the api given in [findex-api.js](https://github.com/yuertongle/findex-integration/blob/master/for_DIY/findex_api.js) to request from Findex smart(Get orderbook, sell/buy/cancel orders), and develop your front end.
