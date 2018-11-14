@@ -141,7 +141,7 @@ return <WebView onMessage={this.onWebViewMessage}
                 }}
                 source={{uri: 'https://example.findex.one?inWallet=tokenPocket&eos_account=examplename1&lang=zh-CN'}}/>
 ```  
-*  If no account has logged in, eos_account should be discarded;
+*  If no account has logged in, eos_account should be dismissed;
 *  English would be the default language if no parameter - lang is given.
 
 
