@@ -3,7 +3,7 @@
 There are three methods to integrate your project with Findex:
 1. **Iframe Integration**. If your project is a website, you can create an iframe in your page, open Findex in the iframe. Click [here](https://betdice.one/exchange/) to see the example: findex in betdice.
 2. **Wallet Integration**. If your project is a wallet APP, you can put a link to Findex in your wallet (Open Findex in webview).  You can see Findex in Tokenpocket、 Meetone etc.
-3. **Develop your own Front-end and use findex JS API**. If you want to develop UI by yourself, we have prepared the [JS API]() for you.
+3. **Develop your own Front-end and use findex JS API**. If you want to develop UI by yourself, we have prepared the [JS API](https://github.com/yuertongle/findex-integration/blob/master/for_DIY/findex_api.js) for you.
 
 
 ---
@@ -110,14 +110,12 @@ There are three methods to integrate your project with Findex:
               '*'
           )
      };
-       
-     ```
-     
+     ```  
  5. Check if findex can login/logout in your project, also set buy/sell/cancel orders. If everything is OK, You are going to succeed.
  6. Add parameters in the iframe src link.
   + Add the URL of the node you like (Findex will get infomation like account's balance etc. from the node)
   + Add your project name in the link
-  + Add trading pairs you want to show. See the [trading pair list]() Findex is supporting.  
+  + Add trading pairs you want to show. Click [here](https://github.com/yuertongle/findex-integration/blob/master/for_iframe_integration/tradingPair.json) to see the trading pair list Findex is supporting.  
   If your project name is 'example', you hope to show 'MEETONE/EOS' and 'BLACK/EOS' in the exchange, and you based in North America, choose the node greymass (you think the node greymass will server you fast), then you the URL is like https://iframe.findex.pro?projectname=example&&showpairs=9,12&&httpendpoint=https://eos.greymass.com 
  7. If you want to customize 'your findex' further, please contact with Findex team.
 
@@ -134,7 +132,7 @@ Here is an [example](https://gist.github.com/jafri/b52dd82aad68cd546575107189692
 For this condition, it's easy to integrate with Findex, just add a link to Findex in your wallet, and put your wallet name in the project. The final link will be https://mainnet.findex.one?walletname=example. You finish the integration.
 
 #### If your wallet hasn't realised scatter feature:
-1. You may use directly or strengthen the Component in example/demo-webview.js:  
+1. You may use directly or strengthen the Component in the [example](https://github.com/yuertongle/findex-integration/blob/master/for_wallet_integration/demo-webview.js)  
 2. Give your wallet name, eos_account logged in the wallet and language as parameters in the url.
 ```javascrip.
 return <WebView onMessage={this.onWebViewMessage}
@@ -162,4 +160,4 @@ switch (msgData.targetFunc) {
 ---
 
 ## Method 3: Develop your own Front-end and use findex JS API
-Use the api give in findex-api.js, develop your UI.
+Use the api give in [findex-api.js](https://github.com/yuertongle/findex-integration/blob/master/for_DIY/findex_api.js) to request from Findex smart(Get orderbook, sell/buy/cancel orders), and develop your front end.
