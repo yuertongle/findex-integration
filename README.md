@@ -157,8 +157,7 @@ switch (msgData.targetFunc) {
 }
 ```
 
-_Important：We are still working on Findex and these doc, please contact with us with no hesitation when facing any problem._
- 
+
  
 ---
 
