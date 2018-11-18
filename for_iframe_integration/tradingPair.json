@@ -29,4 +29,9 @@
   {"pairDisplayName": "FOS/EOS", "pairID": 28}
   {"pairDisplayName": "PTI/EOS", "pairID": 29}
   {"pairDisplayName": "KARMA/DICE", "pairID": 30}
+  {"pairDisplayName": "MAX/EOS", "pairID": 31}
+  {"pairDisplayName": "HORUS/EOS", "pairID": 32}
+  {"pairDisplayName": "IQ/EOS", "pairID": 33}
+  {"pairDisplayName": "IQ/MEV", "pairID": 34}
+  {"pairDisplayName": "HORUS/MEV", "pairID": 35}
 ]
