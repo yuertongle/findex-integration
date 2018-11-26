@@ -34,4 +34,11 @@
   {"pairDisplayName": "IQ/EOS", "pairID": 33}
   {"pairDisplayName": "IQ/MEV", "pairID": 34}
   {"pairDisplayName": "HORUS/MEV", "pairID": 35}
+  {"pairDisplayName": "TEA/DICE", "pairID": 36}
+  {"pairDisplayName": "GYM/EOS", "pairID": 37}
+  {"pairDisplayName": "ASSET/EOS", "pairID": 38}
+  {"pairDisplayName": "POKER/EOS", "pairID": 38}
+  {"pairDisplayName": "JKR/EOS", "pairID": 40}  
+  {"pairDisplayName": "EOSUSD/EOS", "pairID": 41}
+
 ]
