@@ -115,7 +115,7 @@ There are three methods to integrate your project with Findex:
  6. Add parameters in the iframe src link.
   + Add the URL of the node you like (Findex will get infomation like account's balance etc. from the node)
   + Add your project name in the link
-  + Add trading pairs you want to show. Click [here](https://github.com/yuertongle/findex-integration/blob/master/for_iframe_integration/tradingPair.json) to see the trading pair list Findex is supporting.
+  + Add trading pairs you want to show. Click [here](https://api.findex.pro/v1/pairList) to get the trading pair list Findex is supporting.
   + If you have published your own token, please add your token contract(ref_account='tokencontrat') in the parameters also.
   If your project name is 'example', you hope to show 'MEETONE/EOS' and 'BLACK/EOS' in the exchange, you have your own token whose token contract is 'tokencontrat' and you based in North America, choose the node greymass (you think the node greymass will server you fast), then you the URL is like https://iframe.findex.pro?projectname=example&showpairs=9,12&ref_account=tokencontrat&httpendpoint=https://eos.greymass.com 
  7. If you want to customize 'your findex' further, please contact with Findex team.
