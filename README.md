@@ -130,7 +130,7 @@ Here is an [example](https://gist.github.com/jafri/b52dd82aad68cd546575107189692
 ## Method 2: Wallet Integration
 
 #### If your wallet has realised scatter feature:
-For this condition, it's easy to integrate with Findex, just add a link to Findex in your wallet, and put your wallet name in the project. Also, if you have your eos_account, you shold add the account also. The final link will be https://mainnet.findex.one?walletname=example&ref_account=yourEOSAccount. You finish the integration.
+For this condition, it's easy to integrate with Findex, just add a link to Findex in your wallet, and put your wallet name in the project. Also, if you have your eos account, you should add the account also. The final link will be https://mainnet.findex.one?walletname=example&ref_account=yourEOSAccount. You finish the integration.
 
 #### If your wallet hasn't realised scatter feature:
 1. You may use directly or strengthen the Component in the [example](https://github.com/yuertongle/findex-integration/blob/master/for_wallet_integration/demo-webview.js)  
