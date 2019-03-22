@@ -20,6 +20,7 @@ There are three methods to integrate your project with Findex:
            isSuccessful: true,
            args: {
                name: 'example11111',
+               authority: '', //active or owner, got from scatter
                eosAccount: 'example11111',
                type: 1
            },
