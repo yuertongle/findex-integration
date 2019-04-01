@@ -119,7 +119,7 @@ There are three methods to integrate your project with Findex:
   + Add trading pairs you want to show. Click [here](https://api.findex.pro/v1/pairList) to get the trading pair list Findex is supporting.
   + If you have published your own token, please add your token contract(ref_account='tokencontrat') in the parameters also.
   If your project name is 'example', you hope to show 'MEETONE/EOS' and 'BLACK/EOS' in the exchange, you have your own token whose token contract is 'tokencontrat' and you based in North America, choose the node greymass (you think the node greymass will server you fast), then you the URL is like https://iframe.findex.pro?projectname=example&showpairs=9,12&ref_account=tokencontrat&httpendpoint=https://eos.greymass.com 
-  + You can also decide the default kline interval by adding parameter named klineinterval. Supporting values are 1, 15, 30, 60, 240, D(Stand for 1 minutes, 15 minutes, 30 minutes, one hour, 4 hours, 1 day period seperately). klineinterval=240 would set the default kline period as 4 hours.
+  + You can also decide the default kline interval by adding parameter named klineinterval. Supporting values are 1, 5, 15, 30, 60, 240, D(Stand for 1 minutes, 5 minutes, 15 minutes, 30 minutes, one hour, 4 hours, 1 day period seperately). klineinterval=240 would set the default kline period as 4 hours.
  7. If you want to customize 'your findex' further, please contact with Findex team.
 
 
